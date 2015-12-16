@@ -1,4 +1,17 @@
 header {
-background-color: yellow;
+    background-color: yellow;
+    height: 200px;
+    background: url('/home/leslie/Desktop/projectgs/img/cake.jpg');
+    background-size: 100%;
+}
 
+#ask{
+
+}
+
+#assist{
+
+}
+
+#logo{
 }
