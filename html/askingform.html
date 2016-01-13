@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Explain</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <form class="container col-md-5">
+        <h1>Do you need help?</h1>
+        <button class="btn">Yes</button>
+        <button class="btn">No</button>
+        <div class="form-group">
+            <label for="categoryask">Help us understand your situation. What do you need?</label>
+            <select class="form-control category-width">
+                <option value="Food">Food</option>
+                <option value="Transportation">Transportation</option>
+                <option value="Furniture">Furniture</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="3" placeholder="Please describe your situation. For example, 'I need food, because...'"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Are you the head of the family?</label>
+            <button class="btn">Yes</button>
+            <button class="btn">No</button>
+        </div>
+        <div class="form-group">
+            <label for="members">How many family members are in your family?</label>
+            <input type="numbers" class="form-control" id="members">
+        </div>
+        <div class="form-group">
+            <label for="members">How many family members depend on you?</label>
+            <input type="numbers" class="form-control" id="members">
+        </div>
+        <button class="btn btn-primary ">Post to the community</button>
+    </form>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <footer class="col-md-12">
+        Copyright Project GS
+    </footer>
+</body>
+
+</html>
