@@ -1,2 +1,2 @@
 # projectgs
-Project Good Samaritan - our webstie
+Project Good Samaritan - our website
