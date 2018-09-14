@@ -1,2 +1,3 @@
 # projectgs
-Project Good Samaritan - our website
+Project Good Samaritan - Collaborative project to create website. 
+(Currently unfinished)
